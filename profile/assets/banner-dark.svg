@@ -1,0 +1,62 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CognitionSync: Applied AI, built for production.">
+  <title>CognitionSync: Applied AI, built for production.</title>
+  <style>
+    .cs-s {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: cs-flip 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes cs-flip {
+      0%, 17.5%  { transform: scale(1, 1); }
+      25%, 42.5% { transform: scale(-1, 1); }
+      50%, 67.5% { transform: scale(-1, -1); }
+      75%, 92.5% { transform: scale(-1, -1) rotate(180deg); }
+      100%       { transform: scale(1, 1); }
+    }
+    .cs-dot {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: cs-pulse 8s ease-in-out infinite;
+    }
+    .cs-dot-b { animation-delay: 0.5s; }
+    @keyframes cs-pulse {
+      0%, 100% { transform: scale(1);    opacity: 1;   }
+      50%      { transform: scale(1.15); opacity: 0.8; }
+    }
+    .cs-rule { animation: cs-rule 8s ease-in-out infinite; }
+    @keyframes cs-rule {
+      0%, 100% { width: 64px; }
+      50%      { width: 88px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cs-s, .cs-dot, .cs-rule { animation: none; }
+    }
+  </style>
+
+  <defs>
+    <pattern id="dotsd" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#F9F7F3" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" fill="#141413"/>
+  <rect width="1280" height="320" fill="url(#dotsd)"/>
+
+  <g transform="translate(362, 132) scale(3.6) translate(-12.25, -12)">
+    <path d="M 18.93 8 A 8 8 0 1 0 18.93 16" stroke="#F9F7F3" stroke-width="1.6"
+          stroke-linecap="round" opacity="0.92" fill="none"/>
+    <path class="cs-s" d="M 14.5 9 C 11 7.2, 7.5 10, 12 12 C 16.5 14, 13 16.8, 9.5 15"
+          stroke="#F9F7F3" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+    <circle class="cs-dot" cx="18.93" cy="8" r="1.6" fill="#3B82F6"/>
+    <circle class="cs-dot cs-dot-b" cx="18.93" cy="16" r="1.6" fill="#3B82F6"/>
+  </g>
+
+  <text x="424" y="153" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, DejaVu Sans, sans-serif"
+        font-size="56" font-weight="700" fill="#F9F7F3">CognitionSync</text>
+
+  <text x="640" y="222" text-anchor="middle"
+        font-family="Inter, 'Helvetica Neue', Helvetica, Arial, DejaVu Sans, sans-serif"
+        font-size="25" font-weight="400" fill="#A3A39E">Applied AI, built for production.</text>
+
+  <rect class="cs-rule" x="608" y="250" width="64" height="4" rx="2" fill="#3B82F6"/>
+</svg>
