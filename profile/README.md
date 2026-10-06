@@ -39,8 +39,9 @@ Things we have built and run. All live.
 
 | Product | What it does |
 |---|---|
-| **[AxiomSquare](https://axiomsquare.cognitionsync.com)** | FBR digital invoicing and POS for Pakistani businesses. Generates FBR-compliant sales tax invoices with QR codes, submits to FBR in real time via PRAL, and manages products, clients and reporting from one dashboard. |
-| **[PraTax](https://pra.axiomsquare.cognitionsync.com)** | PRA digital invoicing for Punjab service businesses. Creates Punjab Revenue Authority sales tax invoices, attaches the QR code and reports to PRA in real time. Built for restaurants, salons and other providers under the Punjab Sales Tax on Services Act 2012. |
+| **[ALL RISC-V JOBS](https://allriscvjobs.cognitionsync.com)** | Semiconductor, silicon and systems jobs at companies in the RISC-V ecosystem, collected twice a day from each employer's own careers page. |
+| **[AxiomSquare](https://axiomsquarepk.com)** | FBR digital invoicing and POS for Pakistani businesses. Generates FBR-compliant sales tax invoices with QR codes, submits to FBR in real time via PRAL, and manages products, clients and reporting from one dashboard. |
+| **[PraTax](https://pra.axiomsquarepk.com)** | PRA digital invoicing for Punjab service businesses. Creates Punjab Revenue Authority sales tax invoices, attaches the QR code and reports to PRA in real time. Built for restaurants, salons and other providers under the Punjab Sales Tax on Services Act 2012. |
 | **[BuildingMall](https://buildingmall.cognitionsync.com)** | Building materials delivered in Lahore: bricks, steel, cement and sand, with grade-wise transparent pricing, a free construction cost calculator, and consultation from a team with 10+ years of high-rise experience. |
 | **[DocuMind](https://documind.cognitionsync.com)** | Document intelligence. Reads a week's worth of PDFs in minutes and answers questions against them. |
 | **[CognitionSync Labs](https://demos.cognitionsync.com)** | Live demos of our agents. No signup, no slides. |
